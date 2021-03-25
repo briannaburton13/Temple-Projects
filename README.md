@@ -1,2 +1,2 @@
 # Temple-Projects
-s
+For CIS 1051 Final Project. 
