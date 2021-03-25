@@ -24,12 +24,12 @@ def Summation(n):
         
 
 
-#n = int(input("how much beer?:" ))
-#beer(n)
-#n = int(input("what number do you want to mulitply: "))
-#table(n)
-#n = int(input("what number up to do you want to square to add: "))
-#Summation(n)
+n = int(input("how much beer?:" ))
+beer(n)
+n = int(input("what number do you want to mulitply: "))
+table(n)
+n = int(input("what number up to do you want to square to add: "))
+Summation(n)
 
 #DrawSquare
 
@@ -43,7 +43,7 @@ def drawSquare(ja, squareSize):
         ja.fd(20)
         ja.right(360/squareSize)
         
-#drawSquare(ja,4)
+drawSquare(ja,4)
 
 #Drawing a Row of Squares
 
@@ -52,8 +52,8 @@ def drawRow(alice, length, squareSize):
         drawSquare(alice,4)
         alice.fd(20)
 
-        
-#drawRow(ja,5,4)
+# I took out # in many lines        
+drawRow(ja,5,4)
 
 #Drawing a Grid
 def drawGrid(alice, size, squareSize):
@@ -63,7 +63,7 @@ def drawGrid(alice, size, squareSize):
         alice.fd(20)
         alice.left(90)
         alice.backward(100)
-#drawGrid(ja,5,4)
+drawGrid(ja,5,4)
 
 #Drawing a Stair of Squares
 
@@ -78,7 +78,7 @@ def drawSquareStairs(alice, height, squareSize):
         alice.right(90)
         alice.fd(20)
         alice.left(90)        
-#drawSquareStairs(ja,5,4)
+drawSquareStairs(ja,5,4)
 
 #Spirals
 def drawNgon(alice, numSides, sideLength):
@@ -86,7 +86,7 @@ def drawNgon(alice, numSides, sideLength):
         alice.fd(100)
         alice.right(360/numSides)
 
-#drawNgon(ja,6,50)
+drawNgon(ja,6,50)
 
 #Super Spiral
 def drawNgonSpiral(alice, numSides, sideLength, numShapes):
@@ -103,7 +103,7 @@ def drawNgonSpiral(alice, numSides, sideLength, numShapes):
         drawNgon(ja,6,50)
         alice.right(720/35)
         alice.fd(20)
-#drawNgonSpiral(ja,6,100,35)
+drawNgonSpiral(ja,6,100,35)
 
 
 #Hourglass
