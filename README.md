@@ -13,4 +13,6 @@ For CIS 1051 Final Project.
 
 
 #groupmate
-1.Just me right now
+1.Stanley Micheal Lipisko 
+2.Brianna Burton 
+3.Steven Ton 
